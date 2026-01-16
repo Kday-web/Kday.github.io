@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #52493d;
+  color: #f3f3f3;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+  max-width: 1200px;
+  margin: 32px auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 120px;
+}
+
+.nav a {
+  color: #f3f3f3;
+  text-decoration: none;
+  margin-left: 24px;
+  opacity: .8;
+}
+
+.nav a:hover {
+  opacity: 1;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 24px;
+}
+
+.hero h1 {
+  font-size: 3.2rem;
+  line-height: 1.1;
+}
+
+.hero p {
+  max-width: 520px;
+  margin: 24px 0 36px;
+  opacity: .85;
+}
+
+.actions {
+  display: flex;
+  gap: 16px;
+}
+
+.btn {
+  padding: 14px 32px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: .3s;
+}
+
+.btn.primary {
+  background: #9f805f;
+  color: #0f0f0f;
+}
+
+.btn.primary:hover {
+  background: #eecfa5;
+}
+
+.btn.ghost {
+  border: 1px solid #9f805f;
+  color: #9f805f;
+}
+
+.btn.ghost:hover {
+  background: #9f805f;
+  color: #0f0f0f;
+}
+
+.projects {
+  margin-top: 160px;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 32px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  padding: 60px 24px;
+  border-radius: 18px;
+  background: #181818;
+  text-align: center;
+  opacity: .6;
+}
+
+.contact {
+  margin-top: 160px;
+}
+
+.contact h2 {
+  font-size: 2rem;
+}
+
+.contact p {
+  margin-top: 12px;
+  opacity: .8;
+}
+
+.footer {
+  text-align: center;
+  padding: 40px 0;
+  opacity: .4;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.4rem;
+  }
+}
